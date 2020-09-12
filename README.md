@@ -1,3 +1,4 @@
+``` typescript
 @Bio( {
     name: 'Amila Kanchana',
     description: 'A developer',
@@ -5,8 +6,11 @@
     facebookUrl: 'www.facebook.com/amilakanchana0'
 } )
 export class AmilaKanchana {
+
     type: string = 'Full stack development';
+    
     technologies: any = {
+    
         frontEnd: [
             'Angular',
             'Flutter',
@@ -36,6 +40,6 @@ export class AmilaKanchana {
 
     }
 
-
-
 }
+
+```
